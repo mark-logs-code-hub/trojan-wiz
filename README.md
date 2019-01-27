@@ -1,5 +1,6 @@
 ﻿# trojan-wiz
 一键安装trojan-gfw
+## 安装前必须打开服务器的80和443端口
 ---
 # 安装命令：
 > wget -N --no-check-certificate https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash  ins.sh

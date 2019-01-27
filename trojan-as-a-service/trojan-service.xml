@@ -1,0 +1,8 @@
+<service>
+    <id>trojan-service</id>
+    <name>trojan client service</name>
+    <description>trojan 客户端服务</description>
+    <executable>trojan</executable>
+    <arguments>-c client.json</arguments>
+    <logmode>reset</logmode>
+</service>
