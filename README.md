@@ -8,7 +8,10 @@
 支持的系统：
 - ubuntu 16.04+
 - debian 9(理论上应该支持debian 8)
-- centos 7以上
+- centos 7+
+
+[![Watch the video]](https://youtu.be/t94eB9Cor_E)
+
 
 # 给作者一些改进和升级这个脚本的动力：
 ![Image text](https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/images/1.jpg)
