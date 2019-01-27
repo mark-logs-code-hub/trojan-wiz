@@ -10,7 +10,7 @@
 - debian 9(理论上应该支持debian 8)
 - centos 7+
 
-[![Watch the video]](https://youtu.be/t94eB9Cor_E)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 
 # 给作者一些改进和升级这个脚本的动力：
