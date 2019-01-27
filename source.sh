@@ -48,7 +48,7 @@ function setup_deps(){
 		yum  install curl  wget git gnutls-utils  -y
 	else   
 		apt-get update
-		apt-get install curl wget git gnutls-bin gnutls-doc -y    
+		apt-get install curl wget git gnutls-bin  -y    
 	fi
 }
 
