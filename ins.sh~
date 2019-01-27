@@ -202,8 +202,6 @@ function main(){
   init  
   dl_install_trojan  
   install_trojan_svc
-  ui
-  #重启让配置生效
-  systemctl restart trojan-gfw
+  ui  
 }
 main
