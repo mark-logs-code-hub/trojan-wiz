@@ -144,10 +144,10 @@ function install_trojan_svc(){
 	base64 -d <<< $svc  > /lib/systemd/system/trojan-gfw.service
 	#Test for windows mingw64
 	#base64 -d <<< $svc  > trojan-gfw.service
-	  #ac_cert_ip 
-	systemctl daemon-reload
-	systemctl enable trojan-gfw
-	systemctl start trojan-gfw
+	  #ac_cert_ip 	
+	systemctl daemon-reload 
+	systemctl enable trojan-gfw	
+	#systemctl start trojan-gfw
 }
 
 #主界面
