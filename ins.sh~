@@ -147,7 +147,8 @@ function install_trojan_svc(){
 	  #ac_cert_ip 	
 	systemctl daemon-reload 
 	systemctl enable trojan-gfw	
-	#systemctl start trojan-gfw
+	sleep 0.01
+	systemctl start trojan-gfw
 }
 
 #主界面
