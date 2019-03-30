@@ -1,0 +1,11 @@
+[Unit]
+After=network.target 
+
+[Service]
+ExecStart=/usr/local/bin/trojan -c /etc/trojan/config.json
+Restart=always
+StartLimitBurst=0
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target

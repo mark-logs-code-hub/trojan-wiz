@@ -146,8 +146,7 @@ function install_trojan_svc(){
 	#base64 -d <<< $svc  > trojan-gfw.service
 	  #ac_cert_ip 	
 	systemctl daemon-reload 
-	systemctl enable trojan-gfw	
-	sleep 0.01
+	systemctl enable trojan-gfw		
 	systemctl start trojan-gfw
 }
 
