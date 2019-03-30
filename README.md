@@ -3,6 +3,11 @@
 ## 安装前必须打开服务器的80和443端口
 请参考：[视频教程](https://youtu.be/x-2qX6iqxgA)
 
+## 国外VPS服务器推荐:
+搬瓦工：http://bit.ly/2FHfp4m
+数字海洋：http://bit.ly/2uCIffL
+hostdare：http://bit.ly/2Oyo8IO
+
 ---
 # 安装命令：
 > wget -N --no-check-certificate https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash  ins.sh
