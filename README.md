@@ -1,5 +1,5 @@
 ﻿# trojan-wiz
-一键安装trojan-gfw
+一键安装trojan-gfw v2.0
 ## 安装前必须打开服务器的80和443端口
 请参考：[视频教程](https://youtu.be/x-2qX6iqxgA)
 - 已经添加自动续期功能，并且客户端无需下载证书。直接复制最后一屏的配置信息，在客户端创建client.json即可，无需再去下载证书。
