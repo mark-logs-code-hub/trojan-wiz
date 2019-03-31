@@ -58,7 +58,7 @@ svc="W1VuaXRdCkFmdGVyPW5ldHdvcmsudGFyZ2V0IAoKW1NlcnZpY2VdCkV4ZWNTdGFydD0vdXNyL2x
 
 #全局变量区
 workpath=$(mktemp -d) #程序工作目录
-trojan_path="/etc/trojan/cert" #trojan服务端配置目录
+trojan_path="/etc/trojan/cert/" #trojan服务端配置目录
 trojan_client="/home/trojan" #trojan客户端配置目录
 certbot_path="/opt/certbot" #certbot目录
 certbot=$certbot_path/"certbot-auto" #cerbot可执行文件
