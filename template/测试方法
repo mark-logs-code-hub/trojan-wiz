@@ -1,0 +1,4 @@
+
+清除原有依赖
+sudo apt-get remove curl wget gnutls-bin -y
+sudo yum  remove curl  wget  gnutls-utils -y    
