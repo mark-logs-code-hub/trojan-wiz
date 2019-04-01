@@ -9,10 +9,13 @@
 
 
 ## 国外VPS服务器推荐:
-搬瓦工：http://bit.ly/2FHfp4m
-数字海洋：http://bit.ly/2uCIffL
-hostdare：http://bit.ly/2Oyo8IO
-
+- 搬瓦工：http://bit.ly/2FHfp4m
+- 数字海洋：http://bit.ly/2uCIffL
+- hostdare：http://bit.ly/2Oyo8IO
+# pnzhost 限时优惠活动（9$起,使用优惠码半价支持微信和支付宝）：
+- 套餐1：（KVM VPS | 10GB HDD | 512MB RAM | 1TB 宽带 | $9/年） [购买链接](http://bit.ly/2HQRy4m)
+- 套餐2：（KVM VPS | 20GB HDD | 1024MB RAM | 2TB宽带| $14/年） [购买链接](http://bit.ly/2HWjcxh)
+- 套餐3：（KVM VPS | 30GB HDD | 2048MB RAM | 3TB宽带| $22/年） [购买链接](http://bit.ly/2FOzsOt)
 ---
 # 安装命令：
 > wget -N --no-check-certificate https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash  ins.sh
