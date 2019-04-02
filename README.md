@@ -18,9 +18,9 @@
 - 套餐3：（KVM VPS | 30GB HDD | 2048MB RAM | 3TB宽带| $22/年） [购买链接](http://bit.ly/2FOzsOt)
 
 # hostmybytes限时优惠（7.35美元起）
-http://bit.ly/2I9UfgK
-http://bit.ly/2HOwUC9
-http://bit.ly/2YGvSNz
+- 套餐1：http://bit.ly/2I9UfgK
+- 套餐2：http://bit.ly/2HOwUC9
+- 套餐3：http://bit.ly/2YGvSNz
 ---
 # 安装命令：
 > wget -N --no-check-certificate https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash  ins.sh
