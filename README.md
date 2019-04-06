@@ -12,6 +12,7 @@
 - 搬瓦工：http://bit.ly/2FHfp4m
 - 数字海洋：http://bit.ly/2uCIffL
 - hostdare：http://bit.ly/2Oyo8IO
+- alpharacks特价VPS（5.99$-支持支付宝）http://bit.ly/2FTqBK1
 # pnzhost 限时优惠活动（9$起,使用优惠码半价支持微信和支付宝）：
 - 套餐1：（KVM VPS | 10GB HDD | 512MB RAM | 1TB 宽带 | $9/年） [购买链接](http://bit.ly/2HQRy4m)
 - 套餐2：（KVM VPS | 20GB HDD | 1024MB RAM | 2TB宽带| $14/年） [购买链接](http://bit.ly/2HWjcxh)
