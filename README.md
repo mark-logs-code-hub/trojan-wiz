@@ -37,3 +37,6 @@
 ![Image text](https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/images/1.jpg)
 ![Image text](https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/images/2.jpg)
 ![Image text](https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/images/3.jpg)
+
+# 感谢下列网友的打赏，你们打赏是我更新的动力。如果有可能大家可以扫这个红包码，或者点击购买服务器，让脚本作者得到相应的收入，以便来改进和升级。
+＊青、CHEN
