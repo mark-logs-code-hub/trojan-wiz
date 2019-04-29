@@ -27,7 +27,7 @@
 - 套餐3：http://bit.ly/2YGvSNz
 ---
 # 安装命令：
->正式自版脚本： wget -N --no-check-certificate https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash  ins.sh
+>正式版脚本： wget -N --no-check-certificate https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash  ins.sh
 
 >beta版本：wget -N --no-check-certificate https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/ins_beta.sh && chmod +x ins_beta.sh && sudo bash  ins_beta.sh
 ---
