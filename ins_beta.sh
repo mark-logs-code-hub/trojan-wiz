@@ -100,15 +100,15 @@ function setup_deps(){
 
 # 下载并安装trojan-gfw文件
 function dl_install_trojan(){
-	local tj=$(which trojan) #如果没有安装才安装
-	if [ "$tj" = "" ];then
+	#local tj=$(which trojan) #如果没有安装才安装
+	#if [ "$tj" = "" ];then
 		trojan="https://github.com/trojan-gfw/trojan/releases/download/v1.12.1/trojan-1.12.1-linux-amd64.tar.xz"
 		file_name="$workpath/trojan.xz"
 		# Download trojan tarball
 		wget --no-check-certificate -O $file_name  $trojan
 		tar -Jxf $file_name -C $workpath
 		mv $workpath/trojan/trojan /usr/local/bin/
-	fi
+	#fi
 }
 
 #自动生成服务器和客户端配置文件
