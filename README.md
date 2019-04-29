@@ -6,6 +6,9 @@
 - 已经将trojan使用简化到极限
 - trojan无流量特证，流量完全是https流量，这是翻墙的最终境界
 
+## 更新日志：
+- 2019-4-30 2.1beta发布，升级trojan到1.12.1，添加删除trojan功能
+
 
 
 ## 国外VPS服务器推荐:
@@ -24,7 +27,9 @@
 - 套餐3：http://bit.ly/2YGvSNz
 ---
 # 安装命令：
-> wget -N --no-check-certificate https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash  ins.sh
+>正式自版脚本： wget -N --no-check-certificate https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash  ins.sh
+
+>beta版本：wget -N --no-check-certificate https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/ins_beta.sh && chmod +x ins_beta.sh && sudo bash  ins_beta.sh
 ---
 支持的系统：
 - ubuntu 16.04+
@@ -39,4 +44,4 @@
 ![Image text](https://raw.githubusercontent.com/mark-hans/trojan-wiz/master/images/3.jpg)
 
 # 感谢下列网友的打赏，你们打赏是我更新的动力。如果有可能大家可以扫这个红包码，或者点击购买服务器，让脚本作者得到相应的收入，以便来改进和升级。
-＊青、CHEN
+＊青、CHEN、*江(zerozero123)
