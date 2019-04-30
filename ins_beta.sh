@@ -14,7 +14,7 @@ s_cfg="ew0KICAgICJydW5fdHlwZSI6ICJzZXJ2ZXIiLA0KICAgICJsb2NhbF9hZGRyIjogIjAuMC4wL
 
 c_cfg="ew0KICAgICJydW5fdHlwZSI6ICJjbGllbnQiLA0KICAgICJsb2NhbF9hZGRyIjogIjEyNy4wLjAuMSIsDQogICAgImxvY2FsX3BvcnQiOiAxMDgwLA0KICAgICJyZW1vdGVfYWRkciI6ICJfaXBfIiwNCiAgICAicmVtb3RlX3BvcnQiOiA0NDMsDQogICAgInBhc3N3b3JkIjogWw0KICAgICAgICAiX3B3ZF8iDQogICAgXSwNCiAgICAiYXBwZW5kX3BheWxvYWQiOiB0cnVlLA0KICAgICJsb2dfbGV2ZWwiOiAxLA0KICAgICJzc2wiOiB7DQogICAgICAgICJ2ZXJpZnkiOiBmYWxzZSwNCiAgICAgICAgInZlcmlmeV9ob3N0bmFtZSI6IHRydWUsDQogICAgICAgICJjZXJ0IjogImNhLWNlcnQucGVtIiwNCiAgICAgICAgImNpcGhlciI6ICJFQ0RIRS1FQ0RTQS1BRVMxMjgtR0NNLVNIQTI1NjpFQ0RIRS1SU0EtQUVTMTI4LUdDTS1TSEEyNTY6RUNESEUtRUNEU0EtQUVTMjU2LUdDTS1TSEEzODQ6RUNESEUtUlNBLUFFUzI1Ni1HQ00tU0hBMzg0OkVDREhFLUVDRFNBLUNIQUNIQTIwLVBPTFkxMzA1LVNIQTI1NjpFQ0RIRS1SU0EtQ0hBQ0hBMjAtUE9MWTEzMDUtU0hBMjU2OkVDREhFLVJTQS1BRVMxMjgtU0hBOkVDREhFLVJTQS1BRVMyNTYtU0hBOlJTQS1BRVMxMjgtR0NNLVNIQTI1NjpSU0EtQUVTMjU2LUdDTS1TSEEzODQ6UlNBLUFFUzEyOC1TSEE6UlNBLUFFUzI1Ni1TSEE6UlNBLTNERVMtRURFLVNIQSIsDQogICAgICAgICJzbmkiOiAiIiwNCiAgICAgICAgImFscG4iOiBbDQogICAgICAgICAgICAiaDIiLA0KICAgICAgICAgICAgImh0dHAvMS4xIg0KICAgICAgICBdLA0KICAgICAgICAicmV1c2Vfc2Vzc2lvbiI6IHRydWUsDQogICAgICAgICJzZXNzaW9uX3RpY2tldCI6IGZhbHNlLA0KICAgICAgICAiY3VydmVzIjogIiINCiAgICB9LA0KICAgICJ0Y3AiOiB7DQogICAgICAgICJub19kZWxheSI6IHRydWUsDQogICAgICAgICJrZWVwX2FsaXZlIjogdHJ1ZSwNCiAgICAgICAgImZhc3Rfb3BlbiI6IGZhbHNlLA0KICAgICAgICAiZmFzdF9vcGVuX3FsZW4iOiAyMA0KICAgIH0NCn0NCg==";
 
-svc="W1VuaXRdCkFmdGVyPW5ldHdvcmsudGFyZ2V0IAoKW1NlcnZpY2VdCkV4ZWNTdGFydD0vdXNyL2xvY2FsL2Jpbi90cm9qYW4gLWMgL2V0Yy90cm9qYW4vY29uZmlnLmpzb24KUmVzdGFydD1hbHdheXMKU3RhcnRMaW1pdEJ1cnN0PTAKU3RhcnRMaW1pdEludGVydmFsPTAKCltJbnN0YWxsXQpXYW50ZWRCeT1tdWx0aS11c2VyLnRhcmdldA=="
+svc="W1VuaXRdCkFmdGVyPW5ldHdvcmsudGFyZ2V0IAoKW1NlcnZpY2VdCkV4ZWNTdGFydD0vdXNyL2Jpbi90cm9qYW4gLWMgL2V0Yy90cm9qYW4vY29uZmlnLmpzb24KUmVzdGFydD1hbHdheXMKU3RhcnRMaW1pdEJ1cnN0PTAKU3RhcnRMaW1pdEludGVydmFsPTAKCltJbnN0YWxsXQpXYW50ZWRCeT1tdWx0aS11c2VyLnRhcmdldA=="
 # end template
 
 # 检测Linux发行版名称和版本号
@@ -107,7 +107,7 @@ function dl_install_trojan(){
 		# Download trojan tarball
 		wget --no-check-certificate -O $file_name  $trojan
 		tar -Jxf $file_name -C $workpath
-		mv $workpath/trojan/trojan /usr/local/bin/
+		mv $workpath/trojan/trojan /usr/bin/
 	#fi
 }
 
@@ -133,7 +133,7 @@ function ac_cert_ip(){
 
     #将内存中证书模板文件存入硬盘
 	base64 -d <<< ${ca} > ca.txt
-    base64 -d <<< ${server} > server.txt
+  base64 -d <<< ${server} > server.txt
 	
 	ip=$(curl -s  http://api.ipify.org)
 	
@@ -273,6 +273,7 @@ function ac_cert_domain(){
 #删除trojan
 function delete_trojan(){
 	 rm -r /usr/local/bin/trojan
+	 rm -r /usr/bin/trojan
 	 rm -rf /etc/letsencrypt
 	 rm -rf /opt/certbot
 	 rm -rf /home/trojan
