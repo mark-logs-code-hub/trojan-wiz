@@ -320,7 +320,7 @@ function installation_domain(){
 function ui(){
 while [ 1 ]
 	do
-		opt=$(whiptail --title "Trojan GFW 配置向导 v2.0" --menu "请选择证书模式" 15 60 3 \
+		opt=$(whiptail --title "Trojan GFW 配置向导 v2.1" --menu "请选择证书模式" 15 60 3 \
 		"1" "使用IP自签发证书" \
 		"2" "使用免费的域名证书（Let's Encrypt）" \
 		"3" "删除Trojan" \
