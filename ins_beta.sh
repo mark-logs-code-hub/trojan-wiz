@@ -102,7 +102,7 @@ function setup_deps(){
 function dl_install_trojan(){
 	#local tj=$(which trojan) #如果没有安装才安装
 	#if [ "$tj" = "" ];then
-		trojan="https://github.com/trojan-gfw/trojan/releases/download/v1.12.1/trojan-1.12.1-linux-amd64.tar.xz"
+		trojan="https://github.com/trojan-gfw/trojan/releases/download/v1.13.0/trojan-1.13.0-linux-amd64.tar.xz"
 		file_name="$workpath/trojan.xz"
 		# Download trojan tarball
 		wget --no-check-certificate -O $file_name  $trojan

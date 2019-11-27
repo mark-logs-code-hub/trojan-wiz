@@ -1,5 +1,5 @@
 #!/bin/bash
-# 作者：Mark Salatino
+# 作者：Mark Logs
 # 协议：GPL
 # 欢迎大家提交测试报告，并协助修正bug，目前完整测试的环境是Centos 7,7.5
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
@@ -102,7 +102,7 @@ function setup_deps(){
 function dl_install_trojan(){
 	local tj=$(which trojan) #如果没有安装才安装
 	if [ "$tj" = "" ];then
-		trojan="https://github.com/trojan-gfw/trojan/releases/download/v1.10.1/trojan-1.10.1-linux-amd64.tar.xz"
+		trojan="https://github.com/trojan-gfw/trojan/releases/download/v1.12.1/trojan-1.12.1-linux-amd64.tar.xz"
 		file_name="$workpath/trojan.xz"
 		# Download trojan tarball
 		wget --no-check-certificate -O $file_name  $trojan
